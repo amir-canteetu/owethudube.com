@@ -977,10 +977,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     content: "rss";
 }
 .share-icon-facebook:before  {
-    content: "01. facebook";
+    content: "facebook";
 }
 .share-icon-twitter:before {
-    content: "04. twitter";
+    content: "twitter";
 }
 .share-icon-tumblr:before {
    content: "tumblr";
@@ -995,7 +995,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     content: "instagram";
 }
 .share-icon-pinterest:before {
-    content: "02. pinterest";
+    content: "pinterest";
 }
 .share-icon-googleplus:before {
    content: "03. googleplus";
