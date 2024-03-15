@@ -2165,6 +2165,9 @@ section {
 	width:100%;
 	padding:90px 0;
 }
+#about section {
+	padding:50px 0;
+}
 section.single-content-section {
 	padding:70px 0 20px;
 }

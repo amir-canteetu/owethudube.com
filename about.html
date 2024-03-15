@@ -16,7 +16,7 @@
         <!--=============== favicons ===============-->
         <link rel="shortcut icon" href="images/favicon.ico">
     </head>
-    <body>
+    <body id="about">
         <!--loader-->
         <div class="loader-wrap">
             <div class="spinner">
@@ -30,12 +30,8 @@
             <!-- header start  -->
             <header class="main-header">
                 <!-- logo   -->
-                <a href="index.html" class="logo-holder"><img src="images/logo.png" alt=""></a>  
+                <a href="/" class="logo-holder"><img src="images/logo.png" alt=""></a>  
                 <!-- logo end  -->		
-                <!-- search -->				
-                <div class="search-button"><i class="far fa-search"></i></div>
-                <div class="search-input"><input name="se" id="se" type="text" class="search" placeholder="Search.." /></div>
-                <!-- search end  -->
                 <div class="sb-button"></div>
                 <div class="share-btn showshare"><i class="fal fa-megaphone"></i><span>Share</span></div>
                 <!-- mobile nav -->
@@ -48,37 +44,13 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="#">Portfolio </a>
-                                <!--second level -->
-                                <ul>
-                                    <li><a href="portfolio.html">Horizontal 2 Columns</a></li>
-                                    <li><a href="portfolio2.html">Horizontal 3 Columns</a></li>
-                                    <li><a href="portfolio3.html">Horizontal 1 Columns</a></li>
-                                    <li><a href="portfolio4.html">Masonry</a></li>
-                                    <li><a href="portfolio5.html">Masonry 2</a></li>
-                                    <li><a href="portfolio6.html">Column Grid</a></li>
-                                    <li>
-                                        <a href="#">Single </a>
-                                        <!--third  level -->
-                                        <ul>
-                                            <li><a href="portfolio-single.html">Carousel</a></li>
-                                            <li><a href="portfolio-single2.html">Fullscreen Slider </a></li>
-                                            <li><a href="portfolio-single3.html">Column Grid</a></li>
-                                            <li><a href="portfolio-single4.html">Column Fullwidth</a></li>
-                                        </ul>
-                                        <!--third level end-->
-                                    </li>
-                                </ul>
-                                <!--second level end-->
+                                <a href="portfolio.html">Portfolio </a>
                             </li>
                             <li>
-                                <a href="about.html" class="act-link">About</a>
+                                <a href="about.html" class="act-link">Résumé</a>
                             </li>
                             <li>
-                                <a href="blog.html">News</a>
-                            </li>
-                            <li>
-                                <a href="contacts.html">Contacts</a>
+                                <a href="contacts.html">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -125,8 +97,8 @@
                         <section id="sec1">
                             <div class="container small-container">
                                 <div class="section-title fl-wrap">
-                                    <h3>My Little Story</h3>
-                                    <h4>Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa</h4>
+                                    <h3>My Résumé</h3>
+                                    <h4>Just a little about the projects I've done.</h4>
                                     <div class="section-number">01.</div>
                                 </div>
                                 <div class="column-wrapper_item fl-wrap">
@@ -135,48 +107,7 @@
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla. Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat volutpat. Curabitur convallis fringilla diam sed aliquam. Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa, a consequat purus viverra.
                                         </p>
                                         <p>Praesent nec leo venenatis elit semper aliquet id ac enim. Maecenas nec mi leo. Etiam venenatis ut dui non hendrerit. Integer dictum, diam vitae blandit accumsan, dolor odio tempus arcu, vel ultrices nisi nibh vitae ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius lacinia vestibulum. Aliquam lobortis facilisis tellus, in facilisis ex vehicula ac. In malesuada quis turpis vel viverra.</p>
-                                        <div class="inline-facts-holder fl-wrap">
-                                            <!-- inline-facts -->
-                                            <div class="inline-facts">
-                                                <div class="milestone-counter">
-                                                    <div class="stats animaper">
-                                                        <div class="num" data-content="461" data-num="461">461</div>
-                                                    </div>
-                                                </div>
-                                                <h6>Finished projects</h6>
-                                            </div>
-                                            <!-- inline-facts end -->
-                                            <!-- inline-facts  -->
-                                            <div class="inline-facts">
-                                                <div class="milestone-counter">
-                                                    <div class="stats animaper">
-                                                        <div class="num" data-content="461" data-num="461">461</div>
-                                                    </div>
-                                                </div>
-                                                <h6>Finished projects</h6>
-                                            </div>
-                                            <!-- inline-facts end -->
-                                            <!-- inline-facts  -->
-                                            <div class="inline-facts">
-                                                <div class="milestone-counter">
-                                                    <div class="stats animaper">
-                                                        <div class="num" data-content="168" data-num="168">168</div>
-                                                    </div>
-                                                </div>
-                                                <h6>Happy customers</h6>
-                                            </div>
-                                            <!-- inline-facts end -->
-                                            <!-- inline-facts  -->
-                                            <div class="inline-facts">
-                                                <div class="milestone-counter">
-                                                    <div class="stats animaper">
-                                                        <div class="num" data-content="222" data-num="222">222</div>
-                                                    </div>
-                                                </div>
-                                                <h6>Working hours </h6>
-                                            </div>
-                                            <!-- inline-facts end -->
-                                        </div>
+
                                         <a href="portfolio.html" class="btn fl-btn">My Portfolio</a>
                                     </div>
                                 </div>
@@ -188,41 +119,32 @@
                         <section id="sec2">
                             <div class="container small-container">
                                 <div class="section-title fl-wrap">
-                                    <h3>Skills and Attainments</h3>
-                                    <h4>Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa</h4>
+                                    <h3>TELEVISION/COMMERCIAL</h3>
+                                    <h4>Explore Edmonton – This Is The Game  |  Actress  |  Commercial</h4>
                                     <div class="section-number">02.</div>
                                 </div>
-                                <div class="column-wrapper_item fl-wrap">
-                                    <div class="column-wrapper_text fl-wrap">
-                                        <div class="skillbar-box animaper">
-                                            <!-- skill 1-->
-                                            <div class="custom-skillbar-title"><span>Photoshop</span></div>
-                                            <div class="skill-bar-percent">95%</div>
-                                            <div class="skillbar-bg" data-percent="95%">
-                                                <div class="custom-skillbar"></div>
-                                            </div>
-                                            <!-- skill 2-->
-                                            <div class="custom-skillbar-title"><span>Illustrator</span></div>
-                                            <div class="skill-bar-percent">65%</div>
-                                            <div class="skillbar-bg" data-percent="65%">
-                                                <div class="custom-skillbar"></div>
-                                            </div>
-                                            <!-- skill 3-->
-                                            <div class="custom-skillbar-title"><span>3D MAX</span></div>
-                                            <div class="skill-bar-percent">75%</div>
-                                            <div class="skillbar-bg" data-percent="75%">
-                                                <div class="custom-skillbar"></div>
-                                            </div>
-                                            <!-- skill 4-->
-                                            <div class="custom-skillbar-title"><span>Google ScketchUp</span></div>
-                                            <div class="skill-bar-percent">90%</div>
-                                            <div class="skillbar-bg" data-percent="90%">
-                                                <div class="custom-skillbar"></div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            </div>
+                            <div class="container small-container">
+                                <div class="section-title fl-wrap">
+                                    <h3>SCHOOL PLAYS/THEATRE</h3>
+                                    <h4>Waterscapes  |  Actress  |  2019</h4>
                                 </div>
                             </div>
+                            <div class="container small-container">
+                                <div class="section-title fl-wrap">
+                                    <h3>TRAINING</h3>
+                                    <h4>Personal Development. Modelling, TV + Film  |  10 Weeks  |  Chan International – Edmonton</h4>
+                                    <h4>Faces West Model & Talent Training  |  15 Weeks  |  Chan International – Edmonton</h4>
+                                </div>
+                            </div>  
+                            <div class="container small-container">
+                                <div class="section-title fl-wrap">
+                                    <h3>SPECIAL SKILLS/HOBBIES</h3>
+                                    <h4>Aerial Silk, Stilt Walking, Hoop & Loop Splits, Trampoline, Hoola Hoop, Juggling,
+                                        Synchronized Swimming, Hip Hop Dance, Ballet, Jazz, Ice Skating, Roller Skating, Hoverboarding, 
+                                        Sewing & Fashion Design, Chess, Coding</h4>
+                                </div>
+                            </div>                                                                                  
                         </section>
                         <!--section end  -->								
                         <div class="sec-dec"></div>
@@ -230,7 +152,7 @@
                         <section id="sec3">
                             <div class="container small-container">
                                 <div class="section-title fl-wrap">
-                                    <h3>Services and prices</h3>
+                                    <h3>Media</h3>
                                     <h4>Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa</h4>
                                     <div class="section-number">03.</div>
                                 </div>
