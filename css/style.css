@@ -1313,6 +1313,10 @@ blockquote p {
 	top:34px;
 	cursor:pointer;
 }
+
+.sb-button{
+	display: none;
+}
 .share-btn {
 	line-height:40px;
 	margin-right:10px;
