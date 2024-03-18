@@ -100,14 +100,17 @@ audio,video,canvas {max-width: 100%;}
    right: 0;
    top: 0;
  }
+ /*
  video,
  source {
+	
    bottom: 0;
    left: 0;
    min-height: 100%;
    min-width: 100%;
    position: absolute;
  }
+ */
  .loaded .ytplayer-container {
    display: block;
  }
