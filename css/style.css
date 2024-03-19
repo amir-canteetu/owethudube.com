@@ -4947,4 +4947,8 @@ blockquote:before {
 	background:#1B1B1B;
 }
 }
+
+#about .swiper-slide-duplicate, #about .testilider-controls {
+	display: none;
+}
  
