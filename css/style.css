@@ -4463,9 +4463,7 @@ section.single-content-section {
 	padding:0 20px;
 }
 .menusb   li i {
-	position:absolute;
-	right:18px;
-	top:12px;
+float: left;
 }
 .menusb  a {
 	float:left;
