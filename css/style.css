@@ -4949,4 +4949,8 @@ blockquote:before {
 #about .swiper-slide-duplicate, #about .testilider-controls {
 	display: none;
 }
+
+.element { /*disable custom cursor*/ 
+    display:none;
+}
  
