@@ -13603,6 +13603,7 @@ section.single-content-section {
 		width: 100%;
 		top: 0;
 		padding: 150px 0;
+		padding-top: 460px;
 	}
 
 	.column-wrapper {
@@ -13977,9 +13978,9 @@ section.single-content-section {
 		padding-bottom: 12px;
 	}
 
-	.column-image {
+	/* .column-image {
 		padding: 100px 0;
-	}
+	} */
 
 	.author-social {
 		float: left;
